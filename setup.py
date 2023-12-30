@@ -22,7 +22,7 @@ setup(
     author="5hojib",
     author_email="yesiamshojib@gmail.com",
     python_requires="~=3.8",
-    description="its just a fork of pyrogram"
+    description="its just a fork of pyrogram",
     url="https://github.com/5hojib/telefusion",
     license="LGPLv3",
     package_data={
