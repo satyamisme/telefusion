@@ -1,8 +1,8 @@
 import re
 from sys import argv
-from setuptools import setup, find_packages
-from compiler.api import compiler as api_compiler
-from compiler.errors import compiler as errors_compiler
+from setuptools import setup#, find_packages
+#from compiler.api import compiler as api_compiler
+#from compiler.errors import compiler as errors_compiler
 
 
 requires = [
@@ -12,9 +12,9 @@ requires = [
     "tgcrypto"
 ]
 
-if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
-    api_compiler.start()
-    errors_compiler.start()
+#if len(argv) > 1 and argv[1] in ["bdist_wheel", "install", "develop"]:
+ #   api_compiler.start()
+  #  errors_compiler.start()
 
 setup(
     name="telefusion",
@@ -28,7 +28,7 @@ setup(
     package_data={
         "telefusion": ["py.typed"],
     },
-    packages=find_packages(exclude=["compiler*"]),
+    #packages=find_packages(exclude=["compiler*"]),
     zip_safe=False,
     install_requires=requires
 )
