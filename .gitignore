@@ -1,0 +1,11 @@
+# telefusion generated code
+
+telefusion/errors/exceptions/
+telefusion/raw/functions/
+telefusion/raw/types/
+telefusion/raw/base/
+telefusion/raw/all.py
+docs/source/telegram
+docs/source/api/methods/
+docs/source/api/bound-methods/
+docs/source/api/types/
