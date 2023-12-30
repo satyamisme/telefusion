@@ -1,6 +1,6 @@
 import re
 from sys import argv
-from setuptools import setup#, find_packages
+from setuptools import setup, find_packages
 #from compiler.api import compiler as api_compiler
 #from compiler.errors import compiler as errors_compiler
 
@@ -28,7 +28,7 @@ setup(
     package_data={
         "telefusion": ["py.typed"],
     },
-    #packages=find_packages(exclude=["compiler*"]),
+    packages=find_packages(),
     zip_safe=False,
     install_requires=requires
 )
